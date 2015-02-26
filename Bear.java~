@@ -1,3 +1,4 @@
+import java.awt.Color;
 public class Bear extends Turtle
 { 
   /**
@@ -6,8 +7,10 @@ public class Bear extends Turtle
    * @param display the model display
    */
   public Bear(World wref)
-  {
+  { 
     super(wref);
+    Color shellColor = new Color(200, 50, 10); //requires import line at top to work (new color defined using RGB values)
+    this.setShellColor(shellColor);
   }
   
   /**
