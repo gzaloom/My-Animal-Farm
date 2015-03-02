@@ -9,11 +9,15 @@ public class Bear extends Turtle
   public Bear(World wref)
   { 
     super(wref);
-    Color shellColor = new Color(200, 50, 10); //requires import line at top to work (new color defined using RGB values)
+    Color shellColor = new Color(139, 69, 19); //requires import line at top to work (new color defined using RGB values)
     this.setShellColor(shellColor);
   }
+  {
+    Color bodyColor = new Color(139, 69, 19);
+    this.setBodyColor(bodyColor);
+  }
   
-  /**
+   /**
    * Constructor that takes the x and y position and the
    * model displayer
    * @param x the x pos
