@@ -8,6 +8,7 @@ public class Lion extends Turtle
   public Lion(World wref)
   {
     super(wref);
+    Color shellColor = new Color(200, 50, 10);
   }
   
   /**
