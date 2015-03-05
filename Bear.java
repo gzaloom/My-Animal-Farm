@@ -16,7 +16,12 @@ public class Bear extends Turtle
     Color bodyColor = new Color(139, 69, 19);
     this.setBodyColor(bodyColor);
   }
-  
+  {
+    this.setHeight(100);
+  }
+  {
+    this.setWidth(150);
+  }
    /**
    * Constructor that takes the x and y position and the
    * model displayer
