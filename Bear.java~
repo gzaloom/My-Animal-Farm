@@ -22,6 +22,9 @@ public class Bear extends Turtle
   {
     this.setWidth(150);
   }
+  {
+    this.getDistance(100,100);
+  }
    /**
    * Constructor that takes the x and y position and the
    * model displayer

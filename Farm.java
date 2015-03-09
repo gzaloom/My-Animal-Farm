@@ -4,7 +4,10 @@ public class Farm
   {
     World wref=new World();
     Bear paddington=new Bear(wref);
-    paddington.forward(100);
+    paddington.animate(5);
+    paddington.animateTurn(20);
+    paddington.animate(4);
+    paddington.animateTurn(15);
     Lion simba=new Lion(wref);
     Kangaroo Fredrick=new Kangaroo(400, 240, wref);
     //you typed ref instead of wref//
