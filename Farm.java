@@ -9,7 +9,12 @@ public class Farm
     paddington.animate(4);
     paddington.animateTurn(15);
     Lion simba=new Lion(wref);
-    Kangaroo Fredrick=new Kangaroo(400, 240, wref);
-    //you typed ref instead of wref//
+    simba.forward(100);
+    simba.turnRight();
+    simba.forward(100);
+    simba.turnRight();
+    simba.forward(150);
+
+
   }
 }

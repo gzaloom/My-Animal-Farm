@@ -6,7 +6,11 @@ public class Farm
     Bear paddington=new Bear(wref);
     paddington.forward(100);
     Lion simba=new Lion(wref);
+<<<<<<< HEAD
+    Kangaroo fredrick=new Kangaroo(400, 240, wref); 
+=======
     Kangaroo Fredrick=new Kangaroo(400, 240, wref);
     //you typed ref instead of wref//
+>>>>>>> FETCH_HEAD
   }
 }
