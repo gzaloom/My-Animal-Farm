@@ -14,7 +14,8 @@ public class Farm
     simba.forward(100);
     simba.turnRight();
     simba.forward(150);
-
+    Kangaroo kanga = new Kangaroo(100,100,wref);
+    
 
   }
 }
