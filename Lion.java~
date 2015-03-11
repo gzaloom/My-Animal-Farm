@@ -1,3 +1,5 @@
+import java.awt.Color;
+
 public class Lion extends Turtle
 { 
   /**
@@ -8,8 +10,13 @@ public class Lion extends Turtle
   public Lion(World wref)
   {
     super(wref);
-    Color shellColor = new Color(200, 50, 10);
-  }
+    Color sc = new Color(201, 185, 45);
+    this.setShellColor(sc);
+    Color bc = new Color(246, 225, 38);
+    this.setBodyColor(bc);
+    tref.getWidth(150);
+    tref.getLength(200);
+   }
   
   /**
    * Constructor that takes the x and y position and the
@@ -18,7 +25,7 @@ public class Lion extends Turtle
    * @param y the y pos
    * @param display the model display
    */
-  public ExampleTurtle(int x, int y, World wref)
+  public Lion(int x, int y, World wref)
   {
     super(x, y, wref);
   }

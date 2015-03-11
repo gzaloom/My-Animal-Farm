@@ -14,7 +14,9 @@ public class Lion extends Turtle
     this.setShellColor(sc);
     Color bc = new Color(246, 225, 38);
     this.setBodyColor(bc);
-  }
+    this.setWidth(100);
+    this.setHeight(50);
+   }
   
   /**
    * Constructor that takes the x and y position and the
