@@ -4,11 +4,14 @@ public class Farm
   {
     World wref=new World();
     Bear paddington=new Bear(wref);
+    paddington.forward(100);
     Lion simba=new Lion(wref);
     simba.forward(100);
     simba.turnRight();
     simba.forward(100);
     simba.turnRight();
     simba.forward(150);
+
+
   }
 }
